@@ -19,18 +19,18 @@ int main() {
 
     //TASK 5.2 | Variant - 11 
 
-    //int sum = 0;
-    //int d = 1; 
-    //int r = 0;
-    //for (int i = 0; i < 100; i++)
-    //{
-    //    r = d % 2;
-    //    if (r == 0) {
-    //        sum += d;
-    //    }
-    //    d++;
-    //}
-    //cout << "Average arefmethic: " << sum / 50 << endl;
+    int sum = 0;
+    int d = 1; 
+    int r = 0;
+    for (int i = 0; i < 100; i++)
+    {
+        r = d % 2;
+       if (r == 0) {
+           sum += d;
+       }
+        d++;
+    }
+    cout << "Average arefmethic: " << sum / 50 << endl;
 
     //TASK 5.3 | Variant - 11
 
