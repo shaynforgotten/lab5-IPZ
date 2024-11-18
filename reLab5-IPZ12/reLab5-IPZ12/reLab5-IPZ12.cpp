@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    //TASK 5.1 | VAariant - 11
+    //TASK 5.1 | Vaariant - 11
     double S = 0;
     for (int k = 6; k <= 18; ++k) {
         S += (pow(k, 4) + 2) / (2 * pow(k, 2) - 1);
@@ -31,4 +31,23 @@ int main() {
     //    d++;
     //}
     //cout << "Average arefmethic: " << sum / 50 << endl;
+
+    //TASK 5.3 | Variant - 11
+
+    double x1 = -13.5;
+    double dx = 1.25;
+    double y = 0;
+
+    
+    double x_prev = x1;
+
+    
+    for (int j = 6; j <= 25; j++) {
+        double xj = 2 * x_prev + dx;      
+        double xj2 = 2 * xj + dx;         
+        y += pow(xj2 - xj, 2);           
+        x_prev = xj;                      
+    }
+
+    std::cout << "Результат суми: " << y << std::endl;
 }
