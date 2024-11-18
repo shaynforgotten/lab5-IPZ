@@ -49,5 +49,5 @@ int main() {
         x_prev = xj;                      
     }
 
-    std::cout << "Результат суми: " << y << std::endl;
+    std::cout << "Result sum: " << y << std::endl;
 }
